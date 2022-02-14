@@ -15,7 +15,7 @@ const Leftdrawer = ({isOpen, toggleIsOpen}) => {
                 onClick={toggleIsOpen}
             >
                 <List>
-                    <ListItem button component={Link} to="/pokedex-react">
+                    <ListItem button component={Link} to="/">
                         <ListItemIcon>
                             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="" />
                         </ListItemIcon>

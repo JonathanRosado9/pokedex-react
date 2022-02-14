@@ -26,7 +26,7 @@ export default function PokeEvolution({ evolutionChain }) {
       container
     >
       {evolutionImages.map((evo, i) => (
-        <Link key={`evolution-${evo.id}`} to={`/pokedex-react/pokemon/${evo.id}`}>
+        <Link key={`evolution-${evo.id}`} to={`/pokemon/${evo.id}`}>
           <Box sx={{ width: "75px", height: "75px" }} xs={2} item>
             <PokeCircle pokeurl={evo.url} pokeball mini />
             <Typography
