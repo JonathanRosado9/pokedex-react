@@ -18,6 +18,10 @@ function App() {
         <Route exact path="/pokemon/:id" element={<PokemonDetail />} />
         <Route path="/" element={<Pokedex pokemon={pokemon} offset={offset} setOffset={setOffset} setPokemon={setPokemon} initialOffset={initialOffset} />} />
         <Route path="/pokemon" element={<Pokedex pokemon={pokemon} offset={offset} setOffset={setOffset} setPokemon={setPokemon} initialOffset={initialOffset} />} />
+
+        <Route exact path="/pokedex-react/pokemon/:id" element={<PokemonDetail />} />
+        <Route path="/pokedex-react/" element={<Pokedex pokemon={pokemon} offset={offset} setOffset={setOffset} setPokemon={setPokemon} initialOffset={initialOffset} />} />
+        <Route path="/pokedex-react/pokemon" element={<Pokedex pokemon={pokemon} offset={offset} setOffset={setOffset} setPokemon={setPokemon} initialOffset={initialOffset} />} />
       </Routes>
     </div>
   );

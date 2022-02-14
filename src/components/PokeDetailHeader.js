@@ -23,7 +23,7 @@ export default function PokeDetailHeader({ id }) {
       container
     >
       {id > 1 ? (
-        <Link to={`/pokemon/${idnum - 1}`}>
+        <Link to={`/pokedex-react/pokemon/${idnum - 1}`}>
           <Box
             sx={{ width: "75px", height: "75px", marginLeft: "25px" }}
             xs={2}
@@ -54,7 +54,7 @@ export default function PokeDetailHeader({ id }) {
       )}
 
       {id < 898 ? (
-        <Link to={`/pokemon/${idnum + 1}`}>
+        <Link to={`/pokedex-react/pokemon/${idnum + 1}`}>
           <Box
             sx={{ width: "75px", height: "75px", marginRight: "25px" }}
             xs={2}

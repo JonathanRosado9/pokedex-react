@@ -86,7 +86,7 @@ const Pokedex = ({ pokemon, setPokemon, offset, setOffset, initialOffset}) => {
       <Grid sx={{ padding: "15px" }} container spacing={2}>
         {Object.keys(pokemon).map((poke) => (
           <Grid key={pokemon[poke].id} item xs={12} sm={6} md={4} lg={3}>
-            <Link to={`/pokemon/${pokemon[poke].id}`}>
+            <Link to={`/pokedex-react/pokemon/${pokemon[poke].id}`}>
               <PokeCard pokemon={pokemon[poke]} cursor="pointer" />
             </Link>
           </Grid>
